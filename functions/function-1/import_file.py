@@ -21,6 +21,8 @@ def import_file(request):
 	:type bucket_name: environment variable
 	:param file_name: downloaded file name 
 	:type file_name: environment variable
+	:param cf_path: path where the file is downloaded in serverless 
+	:type cf_path: string
 
 	:retunr: message
 	:type retunr: string
