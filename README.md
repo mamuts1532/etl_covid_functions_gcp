@@ -3,8 +3,8 @@
 ![](images/api-covid.drawio.png)
 
 
-Etl para la transferencia de archivos desde una Api hasta diferentes tablas de BigQuery, en este ejemplo se ilustra dos formas de poner a funcionar este flujo de trabajo:
+Etl of files from an API to different BigQuery tables, in this example we see two ways to start this workflow :
 
-- Activandolo por medio de una tarea programada desde un Cloud Scheduler y un Cloud Pub/Sub como activador.
+1. Triggered by means of a scheduled task from a Cloud Scheduler and a Cloud Pub/Sub.
 
-- Manualmente por medio de una solicitud HTTP.
+2. Triggered manually via THHP request.
