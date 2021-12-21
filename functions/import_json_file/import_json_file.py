@@ -10,7 +10,7 @@ file_name = os.environ['FILE_NAME']
 
 cf_path = '/tmp/{}'.format(file_name)
 
-def import_file(request):
+def import_json_file(request):
 	"""Download json file from API to bucket, triggered by HTTP request.
 
 	:param request: object contains all the data that is sent from the client to the server
